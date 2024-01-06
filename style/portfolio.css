@@ -10,6 +10,7 @@ nav{
     display: flex;
  justify-content: space-between;
  align-items: center;
+ margin: 0 200px;
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -24,6 +25,9 @@ nav li{
     list-style: none;
     margin-right: 50px;
 }
+nav a{
+    text-decoration: none;
+}
 .button-primary{
     border-radius: 5px;
 background: #FD6E0A;
@@ -32,4 +36,17 @@ font-size: 20px;
 font-weight: 700;
 color: white;
 padding: 15px 35px;
+}
+/*  header related style */
+.header{
+    background-color: #FFF8F3;
+}
+.baner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: center;
+}
+.baner.profil-img{
+    width: 584px;
+height: 676px;
 }
