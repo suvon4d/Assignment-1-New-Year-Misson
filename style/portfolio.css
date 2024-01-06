@@ -78,6 +78,11 @@ background-position: bottom right;
     width: 584px;
 height: 676px;
 }
+/* man section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section style */
 .abot{
     padding: 130px;
@@ -90,4 +95,14 @@ height: 676px;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-descreption{
+    font-weight: 800px;
 }
