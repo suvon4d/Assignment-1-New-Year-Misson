@@ -6,7 +6,7 @@ font-family: 'Open Sans', sans-serif;
 color: #FD6E0A;;
 }
 .secton-title{
-color: #181818);
+color: #181818;
 text-align: center;
 font-size: 35px;
 font-weight: 700;
@@ -19,7 +19,7 @@ display: flex;
  margin: 0 200px;
 }
 .nav-title{
-color:#181818);
+color:#181818;
 font-size: 45px;
 font-weight: 800;
 }
@@ -83,6 +83,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about section style */
 .abot{
     padding: 130px;
@@ -91,7 +94,7 @@ main{
     margin: 130px 0;
 }
 .secion-pragrape{
-    color:#757575);
+    color:#757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -105,4 +108,65 @@ main{
 }
 .info-descreption{
     font-weight: 800px;
+}
+#secion-pragrape{   
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 150px;
+ }
+
+/* skil related style */
+
+.skill-container{
+    display:flex;
+    gap: 24px;
+}
+.skil{
+padding: 30px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skil-pragrape{
+    color: #757575;
+}
+/* resme related style */
+.resume-colam-title{
+color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 30px;
+}
+.resume-item-title{
+margin-bottom: 5px;
+color: #474747;
+font-size: 25px;
+font-weight: 700;
+}
+.resume-itme-instetude{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+} 
+.resume-container,.resume-item-pragrape{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+padding: 0 60px 0 0;
+}
+.resume-container hr{
+margin: 30px 0;
+border-top: 1px solid #D1D1D1
+}
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
 }
